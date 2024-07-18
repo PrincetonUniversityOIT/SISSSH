@@ -1,0 +1,19 @@
+#misc mac
+.DS_Store
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+#ssh files
+*.user
+home.conf
+id_*
+known*
+/controlmasters
