@@ -13,6 +13,7 @@
 
 #ssh files
 *.user
+authorized*
 home.conf
 id_*
 known*
