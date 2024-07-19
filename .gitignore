@@ -16,4 +16,5 @@
 home.conf
 id_*
 known*
+ssh_*
 /controlmasters
