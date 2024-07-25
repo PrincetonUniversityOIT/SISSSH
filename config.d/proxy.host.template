@@ -1,0 +1,1 @@
+ProxyCommand "C:\Users\gkopf\AppData\Local\Programs\Git\mingw64\bin\connect.exe" -S 127.0.0.1:2221 %h %p
