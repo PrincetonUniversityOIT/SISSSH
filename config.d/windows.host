@@ -3,4 +3,5 @@ Host sas* ais* loghost !epoxy
     include ~/.ssh/config.d/princeton.user
     Port 22
     ForwardAgent yes
-    ProxyCommand "C:/Program Files (x86)/Nmap/ncat" --proxy-type socks5 --proxy 127.0.0.1:2221 %h %p
+    #ProxyCommand "C:/Program Files (x86)/Nmap/ncat" --proxy-type socks5 --proxy 127.0.0.1:2221 %h %p
+    ProxyCommand "C:\Program Files\Git\mingw64\bin\connect.exe" -S 127.0.0.1:2221 %h %p
