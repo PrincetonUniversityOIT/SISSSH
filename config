@@ -1,8 +1,8 @@
-#Include ~/.ssh/config.d/*.conf
+Include ~/.ssh/config.d/*.conf
 
-Match exec "uname -o |grep Darwin 2>&1 > $null"
+Match exec "uname -o |grep Darwin"
     Include ~/.ssh/config.d/mac.host
-Match exec "uname -o |grep Msys 2>&1 > $null"
+Match exec "uname -o |grep Msys"
     Include ~/.ssh/config.d/windows.host
 
 Host *
