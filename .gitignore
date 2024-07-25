@@ -19,3 +19,4 @@ id_*
 known*
 ssh_*
 /controlmasters
+/config.d/proxy.host
