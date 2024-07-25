@@ -7,4 +7,5 @@ This contains the .ssh files for accessing SIS windows and linux servers.
  2. Rename your existing .ssh folder! Run `mv .ssh .ssh-old` Do this for two reasons - to have a good backup of your current setup and because you cannot follow the next step if the .ssh folder already exists in your home directory.
  3. Run the following command `git clone https://github.com/PrincetonUniversityOIT/SISSSH.git .ssh`
  4. Copy your key files from the directory you made in step 2 to .ssh. Run `cp .ssh-old/id* .ssh`  
-
+ 5. Run this command to create your User file (enter your username to <username>) `echo "    User <username>" > ~/.ssh/config.d/princeton.user`
+ 6. Start sshing!
