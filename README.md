@@ -19,6 +19,6 @@ cp .ssh-old/id* .ssh
 ```  
  5. Run this command to create your User file (enter your username to <username>)
 ```
-echo "    User <username>" > ~/.ssh/config.d/princeton.user
+echo "    User <username>" > ~/.ssh/config.d/princeton.user (username is your vi account)
 ```
  6. Start sshing!
