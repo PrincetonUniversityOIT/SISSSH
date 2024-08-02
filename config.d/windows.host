@@ -1,6 +1,0 @@
-
-Host sas* ais* loghost !epoxy
-    include ~/.ssh/config.d/princeton.user
-    include ~/.ssh/config.d/proxy.host
-    Port 22
-    ForwardAgent yes

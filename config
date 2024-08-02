@@ -1,9 +1,5 @@
 Include ~/.ssh/config.d/*.conf
-
-Match exec "uname -o |grep Darwin"
-    Include ~/.ssh/config.d/mac.host
-Match exec "uname -o |grep Msys"
-    Include ~/.ssh/config.d/windows.host
+Include ~/.ssh/config.d/macos.host
 
 Host *
     IgnoreUnknown UseKeychain
@@ -14,10 +10,3 @@ Host *
     ForwardAgent yes
     Protocol 2
     StrictHostKeyChecking accept-new
-
-
-Host epoxy
-    Hostname epoxy.princeton.edu
-    Port 22
-    include ~/.ssh/config.d/princeton.user
-    DynamicForward 2221
