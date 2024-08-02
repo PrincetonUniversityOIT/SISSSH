@@ -1,5 +1,5 @@
 
-Host sas* ais* loghost !epoxy
+Host sas* ais* wso2* loghost !epoxy
     include ~/.ssh/config.d/princeton.user
     include ~/.ssh/config.d/proxy.host
     Port 22
