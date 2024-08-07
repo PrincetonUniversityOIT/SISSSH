@@ -16,6 +16,7 @@
 authorized*
 home.conf
 id_*
+ca*
 known*
 ssh_*
 /controlmasters
