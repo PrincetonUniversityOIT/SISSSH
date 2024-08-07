@@ -1,5 +1,5 @@
 
-Host sas* ais* wso2* loghost !epoxy
+Host sas* ais* wso2* eis* loghost !epoxy
     include ~/.ssh/config.d/princeton.user
     Port 22
     ForwardAgent yes
